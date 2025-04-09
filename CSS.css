@@ -1,0 +1,74 @@
+body {
+  background: linear-gradient(to bottom, #ffe6f0, #ffffff); /*fundo do site com leve degrade */
+  font-family: "Playfair Display", serif; /*fonte principal*/
+  color: #4a2c2a;
+  margin: 0; /*remove qualquer espaço externo da página*/
+  padding: 20px; /*adiciona um espaçamento interno ao redor do conteúdo da página*/
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: #b30059;
+  font-family: "Great Vibes", cursive;  /*fonte e cor que usei nos titulos*/
+  text-align: center;
+}
+
+h1 {   /*Tamanho grande pro título principal (h1) e sem espaço acima dele*/
+  font-size: 3em;
+  margin-top: 0;
+}
+
+h2 { /* Tamanho um pouco menor pro subtítulo (h2), mas ainda grande.*/
+  font-size: 2.2em;
+}
+
+p {
+  font-size: 1.2em; /*tamnho da letra*/
+  line-height: 1.6em; /*espaço entre as linhas*/
+  text-align: justify; /*deixa o texto alinhado dos dois lado*/
+  max-width: 800px; /*limete do paragrafo pra ele não ficar muito esticado*/
+  margin: 20px auto; /*da um espaço em cima e em baixo e centraliza ele*/
+}
+
+img {
+  display: block; /* Trasnforma a imagen em um bloco*/
+  max-width: 300px; /*largura da imagen*/
+  width: 100%; /* ela se ajusta ao espaço disponível*/
+  margin: 10px auto; /* centraliza e da espaço ao redor*/
+  border-radius: 12px; /*deixa as bordas arredondadas*/
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /*adiciona uma sombra leve*/
+}
+
+a {
+  display: inline-block;
+  text-align: center; 
+  color: #800040;
+  text-decoration: none; /* tira o sublinhado padrão*/
+  font-weight: bold; /*deixa o texto em negrito*/
+  margin: 10px auto; /*quando passa o mouse em cima, volta o sublinhado*/
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* cria duas colunas*/
+  gap: 20px;
+  max-width: 700px;
+  margin: 30px auto; /* centraliza a galeria e da espaço em cima e embaixo*/
+}
+
+.galeria img {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /*adiciona uma sombra*/
+}
+
+.links { /*centraliza os links*/
+  text-align: center;
+  margin-top: 30px;
+}
